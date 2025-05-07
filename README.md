@@ -1,7 +1,11 @@
 # PROYECTO
 Entrega de proyecto de API con consultas MYSQL con Databases
 
-GUIA PARA LEVANTAR LOS ARCHIVOS
+## Descripcion del Proyecto
+
+Este proyecto se realiza como reporte de entrega el cual consiste en un API para realizar consultas e informacion sobre Superheroes, incluyendo nombres, color de ojos, cabello y piel, empresas publicadoras de estos superheroes, los superpoderes y su genero. Este sistema utiliza de MYSQL con FastAPI para su desarrollo, al igual que PhPmyAdmin para cargar los archivos y realizar consultas mas facilmente.
+
+# GUIA PARA LEVANTAR LOS ARCHIVOS
 
 Primero descarga todos los archivos que estan en este repositorio, los cuales contaran con la siguiente estructura:
 
@@ -33,7 +37,7 @@ EL SERVIDOR phpmyadmin esta en el puerto: 8088
 
 LA BASE DE DATOS esta en el puerto: 3309
 
-#Descripcion de Archivos
+# Descripcion de Archivos
 
 -main.py: Es el principal punto de entrada del FastAPI, al igual que define las tablas.
 
