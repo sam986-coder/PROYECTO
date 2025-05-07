@@ -59,8 +59,11 @@ LA BASE DE DATOS esta en el puerto: 3309
 
 NOTA: ES IMPORTANTE TENER INSTALADO DOCKER
 
-##USO DE LOS SERVICIOS DE FASTAPI
-Al acceder al FastAPI puedes realizar varias consultas como: Lista de superheroes con mas poderes, empresas con mas superpoderes y muchomas
+## USO DE LOS SERVICIOS DE FASTAPI
+
+Al acceder al FastAPI puedes realizar varias consultas como: Lista de superheroes con mas poderes, empresas con mas superpoderes y muchomas.
+
 Solo debes acceder a alguna de tu interes y seleccionar Try y seleccionar la cantidad maxima de columnas, ahi se generara un link HTML el cual puedes copiar para acceder a la tabla.
+
 Esto tambien funciona con las graficas en seaborn.
 
