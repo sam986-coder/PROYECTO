@@ -1,6 +1,8 @@
 # PROYECTO
 Entrega de proyecto de API con consultas MYSQL con Databases
-#GUIA PARA LEVANTAR LOS ARCHIVOS
+
+GUIA PARA LEVANTAR LOS ARCHIVOS
+
 Primero descarga todos los archivos que estan en este repositorio, los cuales contaran con la siguiente estructura:
 
 ├── database.py              # Conexión y funciones para interactuar con la base de datos
@@ -19,18 +21,20 @@ Primero descarga todos los archivos que estan en este repositorio, los cuales co
 
 ├── verify_db_connection.py  # Script para verificar la conexión a la base de datos
 
-└── sql/                     # Directorio con scripts SQL (mencionado en docker-compose.yml)
-    └── #Aca estaran los archivos sql de las tablas de la carpeta
+└── sql/                     # Directorio con scripts SQL
     
 Una vez unstalados usa en la terminal con ubicacion a la carpeta de todos estos archivos el comando: "Docker-compose up -d".
 
 De esa manera deberia poder subirse todo el contenido sin problemas, verifica que sea desde un sistema completo de Linux Ubuntu, ya que hemos verificado que utilizar maquinas virtuales o emuladores de Linux provocan fallos inesperados y puede no funcionar correctamente.
 
 EL SERVICIO FAST API ESTA EN el puerto: 8087
+
 EL SERVIDOR phpmyadmin esta en el puerto: 8088
+
 LA BASE DE DATOS esta en el puerto: 3309
 
 #Descripcion de Archivos
+
 -main.py: Es el principal punto de entrada del FastAPI, al igual que define las tablas.
 
 -dockerfile: Esta ligada con la instalacion de las dependencias utilizadas para FastAPI como pandas
